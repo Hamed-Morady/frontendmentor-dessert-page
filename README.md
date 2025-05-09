@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+# Product List with Cart | Frontend Mentor Challenge
+## Description 
+This project is a solution to the "Product List with Cart" challenge from Frontend Mentor. It is built using React, JavaScript, and CSS.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The goal of this challenge is to create a responsive product listing page with the ability to add and remove items from a shopping cart. Users can select product quantities, view cart details, and experience dynamic UI updates based on their interactions.
 
-## Available Scripts
+This project was built as a practice to improve my frontend development skills, particularly in managing component-based architecture with React and handling user interactions with clean, maintainable code. The application is fully responsive and works well on all screen sizes.
 
-In the project directory, you can run:
+## 📱 Demo & Screenshot
 
-### `npm start`
+Here is a screenshot of the project:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![App Screenshot](public/images/desktop-design-selected.jpg)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You can also check the live demo [Live Demo](https://your-demo-link.com)
 
-### `npm test`
+## ⚙️ Installation & Setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Hamed-Morady/product-list-with-cart-main.git
+    ```
 
-### `npm run build`
+2. Go to the project folder:
+    ```bash
+    cd product-list-with-cart-main
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Install dependencies for **React** and **React Bootstrap**:
+    ```bash
+    npm install react react-dom react-scripts react-bootstrap
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Or, if you want to install all the required dependencies at once (if you have a `package.json`):
+    ```bash
+    npm install
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Run the development server:
+    ```bash
+    npm start
+    ```
 
-### `npm run eject`
+6. Open the project in your browser at `http://localhost:3000`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+##  Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Open the project in your browser by going to `http://localhost:3000` after running the development server with `npm start`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. On the homepage, you will see a list of products. You can:
+    - Browse the available products.
+    Select a product and specify its quantity. The product will be added to the shopping cart.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. The shopping cart is located on the right side of the page:
+    - See the list of items you've added.
+    - Remove items or change their quantity.
+    - Proceed to checkout when you're ready.
 
-## Learn More
+4. The website is fully responsive, so you can use it on both desktop and mobile devices.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ✨Features
 
-### Code Splitting
+-  Display a list of products with images, prices
+- Add and remove products from the cart
+- 🔄 Update the quantity of products in the cart
+- 💰 View the total price of selected items
+- 🧾 Order confirmation section
+- 📱 Fully responsive design (works on all screen sizes)
+- 🎨 Designed using React Bootstrap for a modern user interface
+- Built with React for fast and dynamic UI rendering
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🧰 Tech Stack
 
-### Analyzing the Bundle Size
+- **Frontend:**
+  - React
+  - React Bootstrap
+  - JavaScript
+  - CSS3
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Package Manager:**
+  - npm
 
-### Making a Progressive Web App
+- **Version Control:**
+  - Git & GitHub
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📁 Folder Structure
+- public/
+- src/
+- README.md
+- .gitignore
+- package.json
 
-### Advanced Configuration
+##  Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Contributions are welcome!  
+If you have suggestions for improvements, feel free to fork the repository and submit a pull request.
 
-### Deployment
+Steps to contribute:
+1. Fork the project
+2. Create a new branch (`git checkout -b feature-name`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature-name`)
+5. Open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Thank you for helping make this project better! 🌟
 
-### `npm run build` fails to minify
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License.  
+You are free to use, modify, and distribute this project with proper attribution.
+
+See the [LICENSE](/LICENSE) file for more details.
+
+## 📞 Contact
+
+If you have any questions or suggestions, feel free to reach out to me:
+
+- Email: [esmatmorady2025@gmail.com](mailto:esmatmorady2025@gmail.com)
+- GitHub: [Hamed_Morady](https://github.com/Hamed_Morady)
+
