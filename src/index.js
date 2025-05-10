@@ -109,7 +109,7 @@ const product = [
 
 function App() {
   // Using the useState hook to update items
-  const [carts, setCart] = useState(product);
+  const [carts] = useState(product);
   const [buyCarts, setBuyCarts] = useState([]);
   const [quantity, setQuantity] = useState({});
   const [showCounter, setShowCounter] = useState(null);
@@ -212,7 +212,7 @@ function App() {
             <Card.Body>
               {buyCarts.length === 0 ? (
                 <div className="empty-box">
-                  <img src="images/illustration-empty-cart.svg" />
+                  <img src="images/illustration-empty-cart.svg" alt="empty" />
                   <p className="empty-text">
                     Your added items will appear here
                   </p>
@@ -255,7 +255,7 @@ function App() {
       {modalBox !== false ? (
         <Modal show={true}>
           <Modal.Header className="modal-header">
-            <img src="images/icon-order-confirmed.svg" />
+            <img src="images/icon-order-confirmed.svg" alt="confirmed" />
             <h2>Order confirmed</h2>
             <p className="">we hope you enjoy your food</p>
           </Modal.Header>
@@ -263,7 +263,7 @@ function App() {
             {buyCarts.map((cart) => (
               <div key={cart.id} className="modal-cartBox">
                 <div className="cartBox">
-                  <img className="img-thumbnail" src={cart.cartImage} />
+                  <img className="img-thumbnail" src={cart.cartImage} alt="thumbnail" />
                   <div className="cartBox-items">
                     <p className="shping-name">{cart.name}</p>
                     <p className="cartBox-item">
@@ -319,7 +319,7 @@ function Cart({
         <picture>
           <source srcSet={cart.imagePhone} media="(max-width:600px)" />
           <source srcSet={cart.imageTablet} media="(max-width:1200px)" />
-          <Image className="photo" src={cart.image} rounded />
+          <Image className="photo" src={cart.image} alt="photo" rounded />
         </picture>
         <div className="btn-box" tabIndex="0" onFocus={onFocus} onBlur={onBlur}>
           {showCounter !== cart.id && (
@@ -357,7 +357,6 @@ function Cart({
 function CartShoping({ cart, quantity, trashHandler }) {
   return (
     <div className="shoping">
-      {/* <img className="shoping-img" src={cart.cartImage} /> */}
       <div className="shoping-text">
         <p className="shping-name">{cart.name}</p>
         <p className="shoping-item">
