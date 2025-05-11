@@ -12,7 +12,7 @@ Here is a screenshot of the project:
 
 ![App Screenshot](public/images/desktop-design-selected.jpg)
 
-You can also check the live demo [Live Demo](https://your-demo-link.com)
+You can also check the live demo [Live Demo](https://frontendmentor-dessert-page.onrender.com)
 
 ## ⚙️ Installation & Setup
 
