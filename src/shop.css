@@ -343,13 +343,14 @@ p{
     }
 }
 @media (max-width:600px) {
-    .modal-dialog{
+     .modal-dialog{
         width: 100% !important;
-        bottom: -32px;
+        bottom: 0px !important;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
         margin: 0!important;
         border-radius: none !important;
+        align-self: end;
         bottom: -45px;
     }
     .modal{
@@ -368,7 +369,7 @@ p{
         align-items: center;
     }
     .cart-box{
-        width: 100%;
+        width: 100% !important;
     }
     .btn-box{
         width: 50%;
@@ -381,6 +382,9 @@ p{
     }
 }
 @media (max-width:900px) {
+    .cart-box{
+        width: 45%;
+    }
     .modal-dialog{
         width: 100% ;
         border-top-left-radius: 5px;
