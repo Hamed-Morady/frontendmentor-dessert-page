@@ -79,17 +79,20 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 20px;
-    height: 20px;
+    padding:5px 5px;
     border-radius: 100%;
-    padding-bottom: 0.5rem;
-    font-size: 34px;
     border: 1px solid #fff;
     color: #fff;
 }
-.plus{
-    font-size: 19px;
-    padding-top: 3px;
+.btn-counter .point{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.minus{
+    padding: 8px 5px;;
 }
 .minus:hover,.plus:hover{
     background-color: #fff;
